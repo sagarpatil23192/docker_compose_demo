@@ -1,8 +1,8 @@
 python:
         build: ./python
         container_name: python-demo
-        ports:
-           - "5000:8080"
+        volumes:
+           - /root/docker_compose_demo/python:/opt/www/
         links:
            - db
 

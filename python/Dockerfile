@@ -12,6 +12,5 @@ WORKDIR /opt/www
 # Install dependencies.
 RUN pip install -r requirements.txt
 
-#EXPOSE 80
-CMD ["ping 8.8.8.8"]
 
+CMD ["bash","/opt/www/sleep.sh"]
