@@ -1,6 +1,6 @@
 Prerequisite:
 
-	The volume mapping inside the compose file for python container is done assuming that you clone the git repo in  /root folder. If you change the directory to clone th egit repo please make changes in the compose file also.
+	The volume mapping inside the compose file for python container is done assuming that you clone the git repo in  /root folder. If you change the directory to clone the git repo please make changes in the compose file also.
 
 
 
@@ -20,7 +20,7 @@ Commands:
 		This will generate keywords.txt file with output result
 
 
-3. ONce testing is done stop all the containers using:
+3. Once testing is done stop all the containers using:
 
 
 docker-compose down
